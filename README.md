@@ -26,7 +26,7 @@ Before running the application, ensure you have the following dependencies insta
 
     ```bash
     git clone https://github.com/nathe444/text-to-speech.git
-    cd text-to-speech-app
+    cd text-to-speech
     ```
 
 2. **Install the required dependencies**:
