@@ -41,6 +41,47 @@ st.markdown("""
     .sidebar .sidebar-title {
         color: #4CAF50;
     }
+            
+      @media (max-width: 768px) {
+        h1 {
+            font-size: 22px;
+        }
+        .stTextArea textarea, .stTextInput input {
+            font-size: 12px;
+            padding: 6px;
+        }
+        .stButton button {
+            font-size: 14px;
+            padding: 8px 16px;
+        }
+        .stSubheader {
+            font-size: 14px;
+        }
+        .stFileUploader > div {
+            font-size: 12px;
+        }
+        .sidebar .sidebar-title {
+            font-size: 16px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 22px;
+        }
+        .stTextArea textarea, .stTextInput input {
+            font-size: 10px;
+            padding: 4px;
+        }
+        .stButton button {
+            font-size: 12px;
+            padding: 6px 12px;
+        }
+        .stSubheader {
+            font-size: 12px;
+        }
+    }
+        
     </style>
     """, unsafe_allow_html=True)
 
